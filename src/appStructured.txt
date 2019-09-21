@@ -1,0 +1,24 @@
+src
++---º app
+|    +--º orders
+|    |  |--orders.components.ts|.html|.css
+|    |  +--º order
+|    |  |  |--order.component.ts|.html|.css
+|    |  +--º order-items
+|    |  |  |--order-items.components.ts|.html|.css
+|    |  |
+|    |  +--º shared
+|    |     |--customer.model.ts
+|    |     |--customer.service.ts
+|    |     |--item.model.ts
+|    |     |--item.service.ts
+|    |     |--order-item.model.ts
+|    |     |--order.model.ts
+|    |     |--order.service.ts
+|    |     
+|    |--app.module.ts
+|    
++---º enviroment
+|    |--enviroment.ts (saved apiUrl)
+|    
+|--index.html (cdn path for bootstrap and font awesome icon)
